@@ -49,21 +49,13 @@ export const Advantage = () => {
       </div>
       <div className={styles.types_mobile}>
         <div className={styles.kinds}>
-          <div className={styles.title}>
-            <div className={styles.title_line}></div>SKYPE АУДИТ
-          </div>
+          <div className={styles.title}>SKYPE АУДИТ</div>
 
-          <div className={styles.title}>
-            <div className={styles.title_line}></div>DASHBOARD
-          </div>
+          <div className={styles.title}>DASHBOARD</div>
         </div>
         <div className={styles.kinds}>
-          <div className={styles.title}>
-            <div className={styles.title_line}></div>30 ВИДЖЕТОВ
-          </div>
-          <div className={styles.title}>
-            <div className={styles.title_line}></div>МЕСЯЦ AMOCRM
-          </div>
+          <div className={styles.title}>30 ВИДЖЕТОВ</div>
+          <div className={styles.title}>МЕСЯЦ AMOCRM</div>
         </div>
       </div>
     </div>

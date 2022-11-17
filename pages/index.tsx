@@ -11,8 +11,8 @@ import { MobileMenu } from "../components/mobile_menu/mobile_menu";
 export const Home = () => {
   return (
     <div className={styles.wrapper}>
-      <div className={styles.wrapper_redBlure}></div>
-      <div className={styles.wrapper_blueBlyre}></div>
+      <div className={styles.wrapper_redBlur}></div>
+      <div className={styles.wrapper_blueBlur}></div>
       <div className={styles.wrapper_blueCircle}></div>
       <div className={styles.wrapper_redCircle}></div>
       <div className={styles.wrapper_littleCircle}></div>
@@ -36,8 +36,8 @@ export const Home = () => {
           <div className={styles.about}>
             <div className={styles.footer_title}>О КОМПАНИИ</div>
             <div className={styles.footer_text}>
-              <Link href={""}>Партнёрская программа</Link>
-              <Link href={""}>Вакансии</Link>
+              <Link href={"/"}>Партнёрская программа</Link>
+              <Link href={"/"}>Вакансии</Link>
             </div>
           </div>
           <Footer_menu />
@@ -49,7 +49,7 @@ export const Home = () => {
             </div>
             <div className={styles.politics}>
               ©WELBEX 2022. Все права защищены.
-              <Link className={styles.politics_link} href={""}>
+              <Link className={styles.politics_link} href={"/"}>
                 Политика конфиденциальности
               </Link>
             </div>

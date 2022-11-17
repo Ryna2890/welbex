@@ -19,9 +19,7 @@
     background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
     text-fill-color: transparent;
-
 }
 
 .types {
@@ -98,7 +96,8 @@
         gap: 5px;
     }
 
-    .title_line {
+    .title:before {
+        content: '';
         width: 10px;
         height: 2px;
         background-image: linear-gradient(rgba(252, 176, 69, 1),

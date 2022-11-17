@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display+SC:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Playfair+Display+SC:ital@1&display=swap');
 
-.slogan{
+.slogan {
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 400;
@@ -13,24 +13,23 @@
     z-index: 1;
 }
 
-.slogan_title{
+.slogan_title {
     color: #E4E5EA;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.slogan_title__gradient{
+.slogan_title__gradient {
     font-weight: 900;
     line-height: 58px;
     background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
     text-fill-color: transparent;
 }
 
-.slogan_subtitle{
+.slogan_subtitle {
     font-family: 'Montserrat', serif;
     font-style: normal;
     font-weight: 400;
@@ -40,12 +39,12 @@
 }
 
 @media (max-width: 1024px) {
-    .slogan{
+    .slogan {
         gap: 15px;
         width: 412px;
     }
 
-    .slogan_title{
+    .slogan_title {
         font-weight: 400;
         font-size: 36px;
         line-height: 44px;

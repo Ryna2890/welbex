@@ -16,8 +16,8 @@
 }
 
 .consult_button:hover {
-    box-shadow: 0 1px 2px #ffffff;
     cursor: pointer;
+    background: rgb(31, 82, 198);
 }
 
 @media (max-width: 1024px) {
