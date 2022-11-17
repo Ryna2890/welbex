@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Playfair+Display+SC:ital@1&display=swap');
+.contacts{
+    display: flex;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #E4E5EA;
+    gap: 49px;
+}
+
+.contacts_social{
+    display: flex;
+    gap: 34px;
+}
+
+.contacts_footer{
+    display: flex;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #E4E5EA;
+    gap: 20px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contacts_social__footer{
+    display: flex;
+    gap: 14px;
+}
+
+@media (max-width: 1440px) {
+    .contacts{
+        display: none;
+    }
+
+    .contacts_footer{
+        align-items: flex-start;
+    }
+}

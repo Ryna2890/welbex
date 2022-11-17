@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Playfair+Display+SC:ital@1&display=swap');
+.menu{
+    width: 503px;
+    height: 73px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E4E5EA;
+}
+
+.menu:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .menu{
+        display: none;
+    }
+}
+

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Playfair+Display+SC:ital@1&display=swap');
+
+.consult_button {
+    width: 262px;
+    height: 61px;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    background: rgba(64, 119, 243, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E4E5EA;
+}
+
+.consult_button:hover {
+    box-shadow: 0 1px 2px #ffffff;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .consult_button {
+        display: none;
+    }
+}

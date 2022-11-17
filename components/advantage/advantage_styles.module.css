@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display+SC:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Playfair+Display+SC:ital@1&display=swap');
+
+.advantage {
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #E4E5EA;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-end;
+}
+
+.advantage_gradient {
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
+
+.types {
+    display: flex;
+    gap: 31px;
+    justify-content: flex-end;
+}
+
+.types_wrapper {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.kinds {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.title {
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.kinds_text {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+.types_mobile {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .advantage {
+        align-items: center;
+        gap: 20px;
+        width: 412px;
+    }
+
+    .advantage_title {
+        text-align: left;
+        width: 100%;
+    }
+
+    .types_wrapper {
+        display: none;
+    }
+
+    .types_mobile {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 14px;
+        width: 100%;
+    }
+
+    .kinds {
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 13px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .title_line {
+        width: 10px;
+        height: 2px;
+        background-image: linear-gradient(rgba(252, 176, 69, 1),
+        rgba(253, 29, 29, 1));
+    }
+}
